@@ -1,7 +1,7 @@
 // express를 가져오고 다른 모듈을 연결
 // <라우터를 연결하는 법 (1.2.)>
 // 1. todosRouter라는 이름으로 가져오고 routes라는 폴더에 todos.router.js파일 을 가져옴
-import express from 'express';
+import express from "express";
 import connect from './schemas/index.js';
 import todosRouter from './routes/todos.router.js';
 import errorHandlerMiddleware from './middlewares/error-handler.middleware.js';
